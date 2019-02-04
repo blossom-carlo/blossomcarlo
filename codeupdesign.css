@@ -1,5 +1,4 @@
 * {
-    font-family: "Anton", sans-serif;
     box-sizing: border-box;
 }
 
@@ -36,10 +35,17 @@ body {
     font-weight:bold;
     overflow: auto;
 }
-/*img {*/
-    /*object-fit: cover;*/
-/*}*/
 
-.img-box img{
-    /*display: block;*/
+.container{
+    font-family: "Abel", sans-serif;
+}
+.text-center{
+    font-family: "Anton", serif;
+}
+
+.col-sm{
+    margin: 0 auto;
+}
+.col-md{
+    line-height: 70px;
 }
