@@ -1,5 +1,6 @@
 * {
     box-sizing: border-box;
+
 }
 
 .btn-circle,
@@ -58,13 +59,19 @@ body {
 .row-height {
     height: 65px;
     width: 100%;
+}
+@media (min-width: 767px) and (max-width: 979px){
+    .container{
 
+    }
 }
 
-.img-box {
+@media (min-width: 980px) and (max-width: 1199px){
+    .container{
 
+    }
 }
 
-
-
-
+@media (min-width: 1200px){
+    .container
+}
