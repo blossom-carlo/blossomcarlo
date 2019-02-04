@@ -36,3 +36,10 @@ body {
     font-weight:bold;
     overflow: auto;
 }
+/*img {*/
+    /*object-fit: cover;*/
+/*}*/
+
+.img-box img{
+    /*display: block;*/
+}
