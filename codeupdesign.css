@@ -2,9 +2,17 @@
     box-sizing: border-box;
 
 }
+body {
+    background-color: #e6e6e6;
+    font-family: "Abel";
+    font-weight: none;
+}
+ul {
+    list-style: none;
+}
 
 .btn-circle,
-.btn{
+.btn {
     display:inline-block;
     width: 150px;
     height: 150px;
@@ -15,43 +23,40 @@
     text-align:center;
     text-decoration:none;
     font-size:20px;
-    font-weight:bold;
     overflow: auto;
 
 }
-body {
-    background-color: #e6e6e6;
-}
 
-.btn-logo{
-    display:inline-block;
-    width: 40px;
-    height: 40px;
+
+.btn {
+    /*display:inline-block;*/
+    width: 18px;
+    height: 18px;
     line-height: 40px;
-    border: 5px solid white;
-    border-radius: 50%;
+    /*border: 5px solid white;*/
+    /*border-radius: 50%;*/
     /*color:#f5f5f5;*/
-    text-align:center;
-    text-decoration:none;
-    font-size:20px;
-    font-weight:bold;
-    overflow: auto;
+    /*text-align:center;*/
+    /*text-decoration:none;*/
+    /* font-size:20px;*/
+    /*overflow: auto;*/
     border: none;
     color: black;
 
 }
 
-.container{
-    font-family: "Abel", sans-serif;
+.fancy-font{
+    font-family: "anton";
+    font-weight: bold;
 }
 /*.text-center{*/
-    /*font-family: "Anton", serif;*/
+/*font-family: "Anton", serif;*/
 /*}*/
 
-.img-fluid {
+#nav-item {
     border-radius: 90%;
-    height: 120px;
-    width: 120px;
+    height: 105px;
+    width: 105px;
     position: relative;
     margin-top: -25px;
 }
@@ -60,18 +65,26 @@ body {
     height: 65px;
     width: 100%;
 }
-@media (min-width: 767px) and (max-width: 979px){
-    .container{
 
-    }
+.bg-red {
+    background-color: #e6563b;
+}
+.bg-yellow {
+    background-color: #f29e00;
+}
+.bg-green {
+    background-color: #7cb06c;
+}
+.bg-blue {
+    background-color: #00aba9
+}
+
+@media (min-width: 767px) and (max-width: 979px){
+
 }
 
 @media (min-width: 980px) and (max-width: 1199px){
-    .container{
 
-    }
 }
 
 @media (min-width: 1200px){
-    .container
-}
