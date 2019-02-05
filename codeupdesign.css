@@ -4,8 +4,7 @@
 }
 body {
     background-color: #e6e6e6;
-    font-family: "Abel";
-    font-weight: none;
+    font-family: "Abel", sans-serif;
 }
 
 .btn-circle,
@@ -25,6 +24,7 @@ body {
 }
 ul {
     list-style: none;
+    text-align: center;
 }
 
 .btn {
@@ -35,7 +35,7 @@ ul {
     /*border: 5px solid white;*/
     /*border-radius: 50%;*/
     /*color:#f5f5f5;*/
-    /*text-align:center;*/
+    text-align:center;
     /*text-decoration:none;*/
      font-size:10px;
     /*overflow: auto;*/
@@ -52,7 +52,9 @@ ul {
 /*.text-center{*/
 /*font-family: "Anton", serif;*/
 /*}*/
-
+a {
+    color: black;
+}
 #nav-item {
     border-radius: 90%;
     height: 105px;
