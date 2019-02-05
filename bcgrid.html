@@ -13,36 +13,60 @@
 
 </head>
 <body>
-<nav>
+<nav class="d-block d-sm-none">
     <div>
         <div class="bg-white row-height text-center mt-5">
-            <img id="nav-item" class="img-fluid" src="./bcimg/logo.jpg" alt="design-logo">
+            <img class="img-fluid nav-item" src="./bcimg/logo.jpg" alt="design-logo">
         </div>
     </div>
 </nav>
+<nav class="d-none d-sm-block d-md-none">
+    <div>
+        <div class="bg-white row-height text-center mt-5">
+            <img class="img-fluid nav-item" src="./bcimg/logo.jpg" alt="design-logo">
+        </div>
+        <div>
+        <div><a href="#">Services</a></div>
+        <div><a href="#">Work</a></div>
+        </div>
+        <div>
+        <div><a href="#">Blog</a></div>
+        <div><a href="#">Contact</a></div>
+        </div>
+    </div>
+</nav>
+<nav class="d-none d-md-block">
+    <div>
+        <div class="bg-white row-height mt-5">
+            <img class="img-fluid nav-item" src="./bcimg/logo.jpg" alt="design-logo">
+            <h2>codeup</h2>
+        </div>
+    </div>
+</nav>
+
 <header class="container">
-    <h1 class="text-center mt-4">codeup design</h1>
-    <div class="row">
-        <div class="col text-center"><a class="text-black" href="#">Services</a></div>
-        <div class="col text-center"><a class="text-black" href="#">Work</a></div>
-        <div class="col text-center"><a class="text-black" href="#">Blog</a></div>
-        <div class="col text-center"><a class="text-black" href="#">Contact</a></div>
+    <h1 class="text-center mt-4 d-block d-md-none">codeup design</h1>
+    <div class="row d-flex d-sm-none">
+        <div class="col text-center"><a href="#">Services</a></div>
+        <div class="col text-center"><a href="#">Work</a></div>
+        <div class="col text-center"><a href="#">Blog</a></div>
+        <div class="col text-center"><a href="#">Contact</a></div>
     </div>
 </header>
 <main class="container">
     <h1 class="text-center fancy-font mt-4">VISUAL DESIGN &
         WEB DEVELOPMENT</h1>
     <h2 class="text-center fancy-font m-4">FROM PARK CITY, UTAH</h2>
-    <div class="row fancy-font text-center m-auto mb-5">
-        <div>
-            <li class="btn-circle bg-red">Design</li>
-            <li class="btn-circle bg-yellow">Develop</li>
-            <li class="btn-circle bg-green">Support</li>
-            <li class="btn-circle bg-blue">Host</li>
+    <div class="fancy-font text-center m-auto mb-5">
+        <div class= "m-auto">
+            <div class="btn-circle bg-red">Design</div>
+            <div class="btn-circle bg-yellow">Develop</div>
+            <div class="btn-circle bg-green">Support</div>
+            <div class="btn-circle bg-blue">Host</div>
         </div>
     </div>
     <hr class="d-none d-sm-block">
-    <div class="text-center font-weight-bold mb-5">SELECTED WORK</div>
+    <div class="text-center font-weight-bold mb-5 ">SELECTED WORK</div>
     <div class="row">
         <div class="col-sm-6 d-sm-inline-block">
             <img class="img-fluid" src="./bcimg/apple-ipad.jpg" alt="Card image cap">

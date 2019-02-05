@@ -2,6 +2,7 @@
     box-sizing: border-box;
 
 }
+
 body {
     background-color: #e6e6e6;
     font-family: "Abel", sans-serif;
@@ -9,19 +10,20 @@ body {
 
 .btn-circle,
 .btn {
-    display:inline-block;
+    display: inline-block;
     width: 150px;
     height: 150px;
     line-height: calc(160px - 20px);
     border: 5px solid white;
     border-radius: 50%;
-    color:#f5f5f5;
-    text-align:center;
-    text-decoration:none;
-    font-size:20px;
+    color: #f5f5f5;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
     /*overflow: auto;*/
 
 }
+
 ul {
     list-style: none;
 }
@@ -31,7 +33,7 @@ ul {
     height: 18px;
     line-height: 7px;
     float: right;
-    font-size:10px;
+    font-size: 10px;
     border: none;
     color: black;
     text: bold;
@@ -39,17 +41,19 @@ ul {
 
 }
 
-.fancy-font{
+.fancy-font {
     font-family: "anton";
     font-weight: bold;
 }
+
 /*.text-center{*/
 /*font-family: "Anton", serif;*/
 /*}*/
 a {
     color: black;
 }
-#nav-item {
+
+.nav-item {
     border-radius: 90%;
     height: 105px;
     width: 105px;
@@ -65,21 +69,37 @@ a {
 .bg-red {
     background-color: #e6563b;
 }
+
 .bg-yellow {
     background-color: #f29e00;
 }
+
 .bg-green {
     background-color: #7cb06c;
 }
+
 .bg-blue {
     background-color: #00aba9
 }
 
-@media (min-width: 768px){
+@media (min-width: 576px) {
 
 }
 
-@media (min-width: 992px){
+@media (min-width: 768px) {
 
+}
+
+@media (min-width: 992px) {
+    .nav-item {
+        display: inline-block;
+        /*border-radius: 90%;*/
+        /*height: 105px;*/
+        /*width: 105px;*/
+        /*position: relative;*/
+        /*margin-top: -25px;*/
+        left: 60px;
+
+    }
 }
 
